@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <title>cv cube</title>
+  </head>
+  <body>
+    <div id="screen">
+    	<div id="cube" class='cube'>
+    		<!-- cube images -->
+    		<img id="1" src="photo/acceuil.jpg" class='face' data-transform="translateZ(-400px)" style="outline:none !important">
+    		<img id="2" src="photo/my_old_job.jpeg" class='face' data-transform="rotateY(90deg) translateZ(-400px)">
+    		<img id="3" src="photo/langage_et_connai.jpeg"  class='face' data-transform="rotateY(-90deg) translateZ(-400px)">
+    		<img id="4" src="photo/exp_et_tech.jpeg" class='face' data-transform="rotateY(180deg) translateZ(-400px)">
+    		<img id="5" src="photo/etude_et_langue.jpg" class='face' data-transform="rotateX(90deg) translateZ(-400px)">
+    		<img id="6" src="photo/hobbies.jpg"  class='face' data-transform="rotateX(-90deg) translateZ(-400px)">
+    		<!-- bonus image -->
+    		<img id="7" src="photo/moi1.jpg"  class='face' data-transform="rotateY(180deg) translateZ(305px)" style="visibility:hidden">
+    		<!-- buttons -->
+    		<img src="photo/moi1.jpg" class='face button' alt="7" data-transform="translateY(-80px) translateZ(-340px) scale(0.5)">
+    		<img src="photo/my_old_job.jpeg" class='face button' alt="2" data-transform="translateX(-200px) translateY(-80px) translateZ(-340px) scale(0.5)">
+    		<img src="photo/langage_et_connai.jpeg"  class='face button' alt="3" data-transform="translateX(200px) translateY(-80px) translateZ(-340px) scale(0.5)">
+    		<img src="photo/exp_et_tech.jpeg" class='face button' alt="4" data-transform="translateY(80px) translateZ(-340px) scale(0.5)">
+    		<img src="photo/etude_et_langue.jpg" class='face button' alt="5" data-transform="translateX(-200px) translateY(80px) translateZ(-340px) scale(0.5)">
+    		<img src="photo/hobbies.jpg"  class='face button' alt="6" data-transform="translateX(200px) translateY(80px) translateZ(-340px) scale(0.5)">
+    	</div>
+    </div>
+
+
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
